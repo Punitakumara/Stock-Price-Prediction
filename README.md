@@ -1,5 +1,5 @@
 # Stock-Price-Prediction
-Stock Price Prediction using LSTM
+Stock Price Prediction using Python(LSTM)
 
 ## Project Description:
 
@@ -32,7 +32,10 @@ It uses an **LSTM neural network** trained on the stock’s historical closing p
     - A forecast table with predicted closing prices
 
 ## OutPut
-    video
+
+https://github.com/user-attachments/assets/e0940c71-741b-4bd3-8df7-284ef0311e57
+
+
 
 ## Features
 - Fetch real-time stock data using `yfinance`
