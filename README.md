@@ -11,25 +11,25 @@ It uses an **LSTM neural network** trained on the stock’s historical closing p
 
 ## How It Works
 
-**Enter Stock Symbol:**  The user enters a stock ticker (e.g., TCS, INFY, RELIANCE.NS) in the input box.
+- **Enter Stock Symbol:**  The user enters a stock ticker (e.g., TCS, INFY, RELIANCE.NS) in the input box.
 
-**Fetch Data:**  The app automatically downloads the last 5 years of stock data from Yahoo Finance using the yfinance API.
+- **Fetch Data:**  The app automatically downloads the last 5 years of stock data from Yahoo Finance using the yfinance API.
 
-**Visualize Trends:**  The app displays the historical Open and Close prices with interactive graphs for analysis.
+- **Visualize Trends:**  The app displays the historical Open and Close prices with interactive graphs for analysis.
 
-**Data Preprocessing:**  The ‘Close’ price values are normalized using MinMaxScaler to prepare data for training.
+- **Data Preprocessing:**  The ‘Close’ price values are normalized using MinMaxScaler to prepare data for training.
 
-**Model Training:**  An LSTM (Long Short-Term Memory) neural network is trained on the past 60 days’ closing prices to learn stock patterns.
+- **Model Training:**  An LSTM (Long Short-Term Memory) neural network is trained on the past 60 days’ closing prices to learn stock patterns.
 
-**Prediction:**  The trained model predicts future stock prices for the next N days (user-defined).
+- **Prediction:**  The trained model predicts future stock prices for the next N days (user-defined).
 
-**Display Results:**
+- **Display Results:**
 
-- A comparison chart of Actual vs Predicted prices
+    - A comparison chart of Actual vs Predicted prices
 
-- A forecast plot for the next N days
+    - A forecast plot for the next N days
 
-- A forecast table with predicted closing prices
+    - A forecast table with predicted closing prices
 
 ## OutPut
     video
@@ -50,16 +50,16 @@ It uses an **LSTM neural network** trained on the stock’s historical closing p
 
 ## Learning Outcomes
 
-**Stock Data Handling:** How to fetch and process real-world financial data using the yfinance API.
+- **Stock Data Handling:** How to fetch and process real-world financial data using the yfinance API.
 
-**Data Visualization:** How to visualize time-series data using matplotlib and display it interactively with Streamlit.
+- **Data Visualization:** How to visualize time-series data using matplotlib and display it interactively with Streamlit.
 
-**Deep Learning Concepts:** Understanding the working of **LSTM (Long Short-Term Memory)** networks for sequence and time-series prediction.
+- **Deep Learning Concepts:** Understanding the working of **LSTM (Long Short-Term Memory)** networks for sequence and time-series prediction.
 
-**Data Preprocessing:** Normalizing and preparing data using MinMaxScaler for better model performance.
+- **Data Preprocessing:** Normalizing and preparing data using MinMaxScaler for better model performance.
 
-**Model Training & Evaluation:** How to train, test, and evaluate an LSTM model on stock data.
+- **Model Training & Evaluation:** How to train, test, and evaluate an LSTM model on stock data.
 
-**Forecasting:** How to generate and visualize multi-day stock price predictions.
+- **Forecasting:** How to generate and visualize multi-day stock price predictions.
 
-**Web App Deployment:** How to integrate machine learning models with Streamlit to build user-friendly web applications.
+- **Web App Deployment:** How to integrate machine learning models with Streamlit to build user-friendly web applications.
